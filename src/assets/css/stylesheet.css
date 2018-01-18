@@ -122,6 +122,33 @@ img[alt="Blague CPU"] {
   display: flex;
   justify-content: center;
 }
+
 img[alt="You get a car gif"] {
   width: 60%;
+}
+
+img[alt="CPU architecture"] {
+  width: 40%;
+}
+
+img[alt="Kernel address space après patch"] {
+  width: 80%;
+}
+
+.code-multi-columns {
+  display: flex;
+  align-items: center;
+}
+
+.code-multi-columns pre {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.code-multi-columns pre:first-child {
+  margin-left: 0;
+}
+
+.code-multi-columns pre:last-child {
+  margin-right: 0;
 }
